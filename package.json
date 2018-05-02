@@ -1,0 +1,29 @@
+{
+    "name": "danielzom",
+    "version": "0.1.0",
+    "description": "Traductor de idioma danielzom",
+    "main": "dist/src/danielzom.js",
+    "scripts": {
+        "build": "babel src/danielzom.js -d dist/",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielhoyos/danielzom.git"
+    },
+    "keywords": [
+        "danielzom",
+        "platzi",
+        "fundamentos",
+        "javascript",
+        "js"
+    ],
+    "author": "Daniel Hoyos <danielhoyos350@gmail.com> (https://softicol.com)",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "chai": "^4.1.2",
+        "mocha": "^5.1.1"
+    }
+}
